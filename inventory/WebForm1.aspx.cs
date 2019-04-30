@@ -27,7 +27,7 @@ namespace inventory
 
             ServiceReference.RestaurantWCFServiceClient client = new ServiceReference.RestaurantWCFServiceClient("NetTcpBinding_IRestaurantWCFService");
             client.insertmenu(restaurant);
-            Label1.Text = "Dish Name: " +restaurant.DName+ "</br> Dish Price: "+restaurant.DCost+ "</br> updated";
+            Label1.Text = "Dish Name: " + restaurant.DName + "</br> Dish Price: " + restaurant.DCost + "</br> updated";
 
             txtName.Text = " ";
             txtPrice.Text = " ";
